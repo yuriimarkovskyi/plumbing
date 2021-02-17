@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/*Mixins*/
+/*Slider*/
+/*Variables*/
+.owl-carousel .owl-item img {
+  height: 745px;
+  object-fit: cover;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin: 0 5.5px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+  background-color: #ffc800;
+  transition: all 0.3s ease 0s;
+}
+
+/*Variables*/
+/*Fonts*/
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Rg";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-RegularIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Th";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../fonts/ProximaNovaT-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Th";
+  font-weight: 100;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-ThinIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Lt";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Lt";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-LightIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Lt";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Lt";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-SemiboldIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Th";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Extrabld.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Th";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-ExtrabldIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Bl";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Bl";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-BlackIt.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Rg";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima Nova Rg";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/ProximaNova-BoldIt.ttf") format("truetype");
+}
+/**/
+body {
+  font-family: "Proxima Nova";
+  background-color: #fff;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/**/
+.header {
+  padding: 7px 0;
+}
+.header__contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__phonecall {
+  padding: 0 43px 0 0;
+  flex: 0 0 auto;
+}
+.header__button {
+  flex: 0 0 138px;
+}
+
+.header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo span {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #010101;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__element {
+  position: relative;
+  padding: 0 27px;
+}
+.menu__element:not(:last-child)::after {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+}
+.menu__link {
+  font-size: 16px;
+  line-height: 40px;
+  color: #000;
+  transition: all 0.1s ease 0s;
+}
+.menu__link:hover {
+  border-bottom: 2px solid #ffc800;
+  color: #ffc800;
+  transition: all 0.1s ease 0s;
+}
+
+.phonecall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phonecall img {
+  margin: 0 6px 0 0;
+}
+.phonecall a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+}
+.phonecall a span {
+  font-weight: bold;
+}
+
+.button {
+  color: #030303;
+  background-color: #ffc800;
+  transition: all 0.3s ease 0s;
+}
+.button:hover {
+  color: #ffc800;
+  background-color: #030303;
+  transition: all 0.3s ease 0s;
+}
+.button_small {
+  width: 138px;
+  height: 30px;
+  font-size: 14px;
+}
+.button_big {
+  font-family: Proxima Nova Lt;
+  width: 185px;
+  height: 44px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/*Слайдер*/
+.slider-block {
+  padding: 0 0 133px 0;
+}
+
+.slider {
+  margin: 0 0 133px 0;
+  overflow: hidden;
+}
+.slider__image img {
+  max-width: 100%;
+  filter: brightness(40%);
+}
+.slider__text-block {
+  position: absolute;
+  top: 211px;
+  left: 417px;
+  text-align: left;
+}
+.slider__label {
+  font-size: 35px;
+}
+.slider__label_yellow {
+  font-family: ProximaNova;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffc800;
+}
+.slider__label_white {
+  margin: 22px 0 0 0;
+  font-weight: 400;
+  color: #fffffe;
+}
+.slider__text {
+  margin: 41px 0 0 0;
+  opacity: 0.41;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fffffe;
+}
+.slider__button {
+  margin: 53px 0 0 0;
+}

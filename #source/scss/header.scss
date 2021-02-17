@@ -1,0 +1,41 @@
+.header {
+	padding: 7px 0;
+	&__logo {}
+	&__menu {}
+	&__contacts {
+		@include flex_c;
+	}
+	&__phonecall {
+		padding: 0 43px 0 0;
+		flex: 0 0 auto;
+	}
+	&__button {
+		flex: 0 0 138px;
+	}
+}
+.header .row {
+	@include flex_s-b;
+}
+@media (max-width: 992px) {
+	.header {
+		&__logo {
+			display: none !important;
+		}
+	}
+	.header .row {
+		@include flex_c;
+	}
+}
+@media (max-width: 500px) {
+	.header {
+		&__contacts {
+			flex-direction: column;
+		}
+		&__phonecall {
+			margin: 0 0 10px 0;
+		}
+	}
+	.header .row {
+		justify-content: flex-end;
+	}
+}

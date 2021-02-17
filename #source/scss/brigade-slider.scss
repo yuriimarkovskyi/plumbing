@@ -1,0 +1,72 @@
+.brigade {
+	padding: 0 0 133px 0;
+}
+.brigade-slider {
+	&__slide {}
+	&__image {
+		img {
+			width: 100%;
+			filter: brightness(40%);
+			height: 745px;
+			-o-object-fit: contain;
+			object-fit: cover;
+		}
+	}
+	&__text-block {
+		position: absolute;
+		top: 211px;
+		left: 21.7%;
+		text-align: left;
+	}
+	&__label {
+		font-size: 35px;
+		&--color {
+			&_yellow {
+				margin: 0 0 22px 0;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: #ffc800;
+			}
+			&_white {
+				color: #fff;
+			}
+		}
+	}
+	&__text {
+		margin: 41px 0 0 0;
+		opacity: 0.41;
+		font-size: 20px;
+		line-height: 28px;
+		color: #fffffe;
+	}
+	&__button {
+		margin: 53px 0 0 0;
+	}
+	&__dots {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 45px;
+	}
+}
+@media (max-width: 992px) {
+	.brigade-slider {
+		&__text-block {
+			top: 105px;
+			left: 10%;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.brigade {
+		padding: 0 0 80px 0;
+	}
+	.brigade-slider {
+		&__label {
+			font-size: 25px;
+		}
+		&__text {
+			font-size: 16px;
+		}
+	}
+}

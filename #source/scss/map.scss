@@ -1,0 +1,90 @@
+.map {
+	position: relative;
+	&__application {
+		position: absolute;
+		left: 21.7%;
+		top: 137px;
+	}
+}
+.application {
+	width: 397px;
+	padding: 55px 0;
+	background-color: #ffffff;
+	@include flex_col_c;
+	&__label {
+		margin: 0 0 53px 0;
+		font-size: 20px;
+		font-weight: 800;
+		text-transform: uppercase;
+		color: #030303;
+		span {
+			color: #ffc800;
+		}
+	}
+	&__form {}
+	&__input {
+		&:nth-child(2) {
+			margin: 43px 0 0 0;
+		}
+		&::after {
+			content: '';
+			display: block;
+			width: 305px;
+			height: 1px;
+			background-color: #000000;
+		}
+		.input {
+			width: 100%;
+			opacity: 0.65;
+			font-style: italic;
+			font-size: 18px;
+			font-weight: 100;
+			color: #020202;
+		}
+	}
+	&__button {
+		margin: 65px 0 0 0;
+		width: 304px;
+		height: 58px;
+		font-size: 20px;
+		text-transform: uppercase;
+		color: #020202;
+	}
+}
+@media (max-width: 1500px) {
+	.map {
+		&__application {
+			left: 5%;
+		}
+	}
+}
+@media (max-width: 960px) {
+	.map {
+		padding: 0 0 50px 0;
+		background: #f1f1f1;
+		&__application {
+			position: static;
+			margin: 50px auto 0 auto;
+		}
+	}
+}
+@media (max-width: 420px) {
+	.application {
+		width: 300px;
+		&__input {
+			&::after {
+				width: 280px;
+			}
+		}
+		&__button {
+			width: 280px;
+		}
+	}
+}
+@media (max-width: 320px) {
+	.map {
+		iframe {
+			height: 500px;
+		}
+	}
+}

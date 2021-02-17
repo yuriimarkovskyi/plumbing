@@ -1,0 +1,89 @@
+.advantages {
+	margin: 0 0 143px 0;
+	padding: 95px 0;
+	position: relative;
+	background-color: #f1f1f1;
+	&__block {
+		margin: 18px;
+		width: 198px;
+		height: 168px;
+		background: #fff;
+		@include flex_col_c;
+		justify-content: center;
+		&:hover {
+			filter: grayscale(100%);
+		}
+	}
+	&__icon {
+		margin: 0 0 20px 0;
+	}
+	&__label {
+		font-size: 18px;
+		line-height: 23px;
+		text-transform: uppercase;
+		color: #020202;
+		text-align: center;
+	}
+	&__list {
+		counter-reset: myCounter;
+	}
+	&__element {
+		position: relative;
+		display: flex;
+		margin: 0 0 76px 34px;
+		list-style: none;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 25px;
+		color: #020202;
+		&:last-child {
+			margin: 0 0 0 34px;
+		}
+		&::before {
+			counter-increment: myCounter;
+			content: counter(myCounter);
+			width: 0;
+			font-size: 35px;
+			font-weight: 900;
+			color: #ffc800;
+			margin-right: 67px;
+		}
+		&::after {
+			position: absolute;
+			left: 25px;
+			top: 10px;
+			content: "";
+			width: 31px;
+			height: 2px;
+			background-color: #000000;
+		}
+	}
+	.row {
+		@include flex_c;
+	}
+	.column {
+		&:first-child {
+			max-width: 724px;
+			@include flex_c;
+			flex-wrap: wrap;
+		}
+	}
+}
+@media (max-width: 992px) {
+	.advantages {
+		.row {
+			flex-direction: column;
+		}
+		.column {
+			&:first-child {
+				padding: 0 0 50px 0;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.advantages {
+		margin: 0 0 50px 0;
+		padding: 50px 0;
+	}
+}
