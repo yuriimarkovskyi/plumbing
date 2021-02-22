@@ -74,21 +74,21 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("/fonts/ProximaNovaT-Thin.woff2") format("woff2"), url("/fonts/ProximaNovaT-Thin.woff") format("woff");
+  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("../fonts/ProximaNovaT-Thin.woff2") format("woff2"), url("../fonts/ProximaNovaT-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("/fonts/ProximaNova-ThinIt.woff2") format("woff2"), url("/fonts/ProximaNova-ThinIt.woff") format("woff");
+  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("../fonts/ProximaNova-ThinIt.woff2") format("woff2"), url("../fonts/ProximaNova-ThinIt.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("/fonts/ProximaNovaCond-Thin.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Thin.woff") format("woff");
+  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("../fonts/ProximaNovaCond-Thin.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-stretch: condensed;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("/fonts/ProximaNovaCond-ThinIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-ThinIt.woff") format("woff");
+  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("../fonts/ProximaNovaCond-ThinIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-ThinIt.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-stretch: condensed;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("/fonts/ProximaNovaExCn-Thin.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Thin.woff") format("woff");
+  src: local("Proxima Nova Thin"), local("ProximaNovaT-Thin"), url("../fonts/ProximaNovaExCn-Thin.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("/fonts/ProximaNovaExCn-ThinIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-ThinIt.woff") format("woff");
+  src: local("Proxima Nova Thin Italic"), local("ProximaNova-ThinIt"), url("../fonts/ProximaNovaExCn-ThinIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-ThinIt.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -120,21 +120,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("/fonts/ProximaNova-Light.woff2") format("woff2"), url("/fonts/ProximaNova-Light.woff") format("woff");
+  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("/fonts/ProximaNova-LightIt.woff2") format("woff2"), url("/fonts/ProximaNova-LightIt.woff") format("woff");
+  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("../fonts/ProximaNova-LightIt.woff2") format("woff2"), url("../fonts/ProximaNova-LightIt.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("/fonts/ProximaNovaCond-Light.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Light.woff") format("woff");
+  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("../fonts/ProximaNovaCond-Light.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-stretch: condensed;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("/fonts/ProximaNovaCond-LightIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-LightIt.woff") format("woff");
+  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("../fonts/ProximaNovaCond-LightIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-LightIt.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-stretch: condensed;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("/fonts/ProximaNovaExCn-Light.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Light.woff") format("woff");
+  src: local("Proxima Nova Light"), local("ProximaNova-Light"), url("../fonts/ProximaNovaExCn-Light.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("/fonts/ProximaNovaExCn-LightIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-LightIt.woff") format("woff");
+  src: local("Proxima Nova Light Italic"), local("ProximaNova-LightIt"), url("../fonts/ProximaNovaExCn-LightIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-LightIt.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -166,21 +166,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("/fonts/ProximaNova-Regular.woff2") format("woff2"), url("/fonts/ProximaNova-Regular.woff") format("woff");
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("/fonts/ProximaNova-RegularIt.woff2") format("woff2"), url("/fonts/ProximaNova-RegularIt.woff") format("woff");
+  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("../fonts/ProximaNova-RegularIt.woff2") format("woff2"), url("../fonts/ProximaNova-RegularIt.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("/fonts/ProximaNovaCond-Regular.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Regular.woff") format("woff");
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("../fonts/ProximaNovaCond-Regular.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-stretch: condensed;
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("/fonts/ProximaNovaCond-RegularIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-RegularIt.woff") format("woff");
+  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("../fonts/ProximaNovaCond-RegularIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-RegularIt.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-stretch: condensed;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("/fonts/ProximaNovaExCn-Regular.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Regular.woff") format("woff");
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("../fonts/ProximaNovaExCn-Regular.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("/fonts/ProximaNovaExCn-RegularIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-RegularIt.woff") format("woff");
+  src: local("Proxima Nova Regular Italic"), local("ProximaNova-RegularIt"), url("../fonts/ProximaNovaExCn-RegularIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-RegularIt.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -212,21 +212,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("/fonts/ProximaNova-Semibold.woff2") format("woff2"), url("/fonts/ProximaNova-Semibold.woff") format("woff");
+  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("../fonts/ProximaNova-Semibold.woff2") format("woff2"), url("../fonts/ProximaNova-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("/fonts/ProximaNova-SemiboldIt.woff2") format("woff2"), url("/fonts/ProximaNova-SemiboldIt.woff") format("woff");
+  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("../fonts/ProximaNova-SemiboldIt.woff2") format("woff2"), url("../fonts/ProximaNova-SemiboldIt.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("/fonts/ProximaNovaCond-Semibold.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Semibold.woff") format("woff");
+  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("../fonts/ProximaNovaCond-Semibold.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: condensed;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("/fonts/ProximaNovaCond-SemiboldIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-SemiboldIt.woff") format("woff");
+  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("../fonts/ProximaNovaCond-SemiboldIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-SemiboldIt.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-stretch: condensed;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("/fonts/ProximaNovaExCn-Semibold.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Semibold.woff") format("woff");
+  src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"), url("../fonts/ProximaNovaExCn-Semibold.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("/fonts/ProximaNovaExCn-SemiboldIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-SemiboldIt.woff") format("woff");
+  src: local("Proxima Nova Semibold Italic"), local("ProximaNova-SemiboldIt"), url("../fonts/ProximaNovaExCn-SemiboldIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-SemiboldIt.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -258,21 +258,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("/fonts/ProximaNova-Bold.woff2") format("woff2"), url("/fonts/ProximaNova-Bold.woff") format("woff");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("/fonts/ProximaNova-BoldIt.woff2") format("woff2"), url("/fonts/ProximaNova-BoldIt.woff") format("woff");
+  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("../fonts/ProximaNova-BoldIt.woff2") format("woff2"), url("../fonts/ProximaNova-BoldIt.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("/fonts/ProximaNovaCond-Bold.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Bold.woff") format("woff");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/ProximaNovaCond-Bold.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-stretch: condensed;
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("/fonts/ProximaNovaCond-BoldIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-BoldIt.woff") format("woff");
+  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("../fonts/ProximaNovaCond-BoldIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-BoldIt.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-stretch: condensed;
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("/fonts/ProximaNovaExCn-Bold.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Bold.woff") format("woff");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/ProximaNovaExCn-Bold.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("/fonts/ProximaNovaExCn-BoldIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-BoldIt.woff") format("woff");
+  src: local("Proxima Nova Bold Italic"), local("ProximaNova-BoldIt"), url("../fonts/ProximaNovaExCn-BoldIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-BoldIt.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -304,21 +304,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Condensed Extrabold"), local("ProximaNovaCond-Extrabld"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff");
+  src: local("Proxima Nova Condensed Extrabold"), local("ProximaNovaCond-Extrabld"), url("../fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("../fonts/ProximaNova-Extrabld.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Condensed Extrabold Italic"), local("ProximaNovaCond-ExtrabldIt"), url("/fonts/ProximaNova-ExtrabldIt.woff2") format("woff2"), url("/fonts/ProximaNova-ExtrabldIt.woff") format("woff");
+  src: local("Proxima Nova Condensed Extrabold Italic"), local("ProximaNovaCond-ExtrabldIt"), url("../fonts/ProximaNova-ExtrabldIt.woff2") format("woff2"), url("../fonts/ProximaNova-ExtrabldIt.woff") format("woff");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Condensed Extrabold"), local("ProximaNovaCond-Extrabld"), url("/fonts/ProximaNovaCond-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Extrabld.woff") format("woff");
+  src: local("Proxima Nova Condensed Extrabold"), local("ProximaNovaCond-Extrabld"), url("../fonts/ProximaNovaCond-Extrabld.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Extrabld.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-stretch: condensed;
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Condensed Extrabold Italic"), local("ProximaNovaCond-ExtrabldIt"), url("/fonts/ProximaNovaCond-ExtrabldIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-ExtrabldIt.woff") format("woff");
+  src: local("Proxima Nova Condensed Extrabold Italic"), local("ProximaNovaCond-ExtrabldIt"), url("../fonts/ProximaNovaCond-ExtrabldIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-ExtrabldIt.woff") format("woff");
   font-weight: 800;
   font-style: italic;
   font-stretch: condensed;
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Condensed Extrabold"), local("ProximaNovaCond-Extrabld"), url("/fonts/ProximaNovaExCn-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Extrabld.woff") format("woff");
+  src: local("Proxima Nova Condensed Extrabold"), local("ProximaNovaCond-Extrabld"), url("../fonts/ProximaNovaExCn-Extrabld.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Extrabld.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Condensed Extrabold Italic"), local("ProximaNovaCond-ExtrabldIt"), url("/fonts/ProximaNovaExCn-ExtrabldIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-ExtrabldIt.woff") format("woff");
+  src: local("Proxima Nova Condensed Extrabold Italic"), local("ProximaNovaCond-ExtrabldIt"), url("../fonts/ProximaNovaExCn-ExtrabldIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-ExtrabldIt.woff") format("woff");
   font-weight: 800;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -350,21 +350,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("/fonts/ProximaNova-Black.woff2") format("woff2"), url("/fonts/ProximaNova-Black.woff") format("woff");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("../fonts/ProximaNova-Black.woff2") format("woff2"), url("../fonts/ProximaNova-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("/fonts/ProximaNova-BlackIt.woff2") format("woff2"), url("/fonts/ProximaNova-BlackIt.woff") format("woff");
+  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("../fonts/ProximaNova-BlackIt.woff2") format("woff2"), url("../fonts/ProximaNova-BlackIt.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("/fonts/ProximaNovaCond-Black.woff2") format("woff2"), url("/fonts/ProximaNovaCond-Black.woff") format("woff");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("../fonts/ProximaNovaCond-Black.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-stretch: condensed;
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("/fonts/ProximaNovaCond-BlackIt.woff2") format("woff2"), url("/fonts/ProximaNovaCond-BlackIt.woff") format("woff");
+  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("../fonts/ProximaNovaCond-BlackIt.woff2") format("woff2"), url("../fonts/ProximaNovaCond-BlackIt.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-stretch: condensed;
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("/fonts/ProximaNovaExCn-Black.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-Black.woff") format("woff");
+  src: local("Proxima Nova Black"), local("ProximaNova-Black"), url("../fonts/ProximaNovaExCn-Black.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-stretch: extra-condensed;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "ProximaNova";
-  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("/fonts/ProximaNovaExCn-BlackIt.woff2") format("woff2"), url("/fonts/ProximaNovaExCn-BlackIt.woff") format("woff");
+  src: local("Proxima Nova Black Italic"), local("ProximaNova-BlackIt"), url("../fonts/ProximaNovaExCn-BlackIt.woff2") format("woff2"), url("../fonts/ProximaNovaExCn-BlackIt.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-stretch: extra-condensed;
@@ -827,7 +827,7 @@ h1, h2, h3, h4, h5, h6 {
 .reviews-slider__photo {
   width: 100%;
   height: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
   object-fit: cover;
 }
 .reviews-slider__icon {
@@ -1290,7 +1290,7 @@ body.lock {
 .social-logos a img {
   width: 26px;
   height: 26px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #fefdfd;
 }
 .social-logos a:hover img {
